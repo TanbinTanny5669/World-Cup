@@ -17,8 +17,8 @@
 .first-title {
 
     color: white;
-    margin-top: 80px;
-    margin-left: 30px;
+    margin-top: 30px;
+    margin-left: 90px;
 
 
 
@@ -29,7 +29,7 @@ p {
 }
 
 .title {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 
@@ -41,13 +41,27 @@ body {
 }
 
 .button {
-    background-color: brown;
+
     text-decoration: none;
     color: white;
 
-
+    width: 187px;
+    height: 56px;
     background: #DD0000;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+
+.fa-angle-right {
+    margin-left: 20px;
 }
 
 /* .link-button {
