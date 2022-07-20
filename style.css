@@ -364,15 +364,29 @@
      }
 
      .chapter-last {
+         text-align: center;
          display: block;
-         margin-top: 0;
+
          color: #B9B9B9;
          padding-top: 5px;
+         gap: 90px;
 
      }
 
      .device {
-         margin-top: -1px;
+         padding-bottom: 50px;
+         padding-right: 60px;
+         margin-left: 0;
+     }
+
+
+     .fa-facebook,
+     .fa-twitter,
+     .fa-instagram,
+     .fa-facebook-messenger {
+         margin-left: 10px;
+         color: white;
+         padding-bottom: 30px;
      }
 
  }
