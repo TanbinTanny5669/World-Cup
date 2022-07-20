@@ -239,6 +239,9 @@
      color: white;
  }
 
+
+
+
  @media only screen and (max-width:540px) {
      .container {
          width: 334px;
@@ -380,6 +383,8 @@
      }
 
 
+
+
      .fa-facebook,
      .fa-twitter,
      .fa-instagram,
@@ -387,6 +392,73 @@
          margin-left: 10px;
          color: white;
          padding-bottom: 30px;
+     }
+
+ }
+
+ /* tablet-device */
+ @media only screen and (min-width:543x) and (max-width:992px) {
+     .container {
+         width: 734px;
+         height: 398px;
+         background: #161616;
+         border-radius: 30px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+     }
+
+     .first-title {
+
+         color: white;
+         /* margin-top: 30px;
+         margin-left: 90px; */
+     }
+
+     .title {
+         font-size: 20px;
+     }
+
+     p {
+         font-size: 14px;
+     }
+
+     .footballer img {
+         width: 323px;
+         height: 340px;
+     }
+
+
+     main {
+         width: 100%;
+     }
+
+     .button {
+
+         text-decoration: none;
+         color: white;
+
+         width: 160px;
+         height: 40px;
+         background: #DD0000;
+         border-radius: 3px;
+         display: flex;
+         align-items: center;
+
+     }
+
+
+
+     .link-button {
+         text-decoration: none;
+         color: white;
+         margin-left: 30px;
+         font-size: 20px;
+     }
+
+     .fa-angle-right {
+         margin-left: 20px;
      }
 
  }
